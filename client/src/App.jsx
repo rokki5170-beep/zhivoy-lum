@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
-
+import { useState } from "react";
+import { supabase } from "./supabase";
 function Home() {
   return (
     <div className="app">
