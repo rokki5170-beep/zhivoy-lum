@@ -7,5 +7,9 @@
     "start": "node index.js"
   },
   "author": "rokki5170-beep",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  }
 }
