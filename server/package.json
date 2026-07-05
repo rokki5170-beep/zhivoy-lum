@@ -1,0 +1,11 @@
+{
+  "name": "zhivoy-lum-server",
+  "version": "0.1.0",
+  "description": "Сервер социальной сети Живой-Лум",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "rokki5170-beep",
+  "license": "MIT"
+}
