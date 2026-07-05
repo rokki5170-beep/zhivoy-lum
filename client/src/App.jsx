@@ -59,7 +59,11 @@ function Login() {
   );
 }
 
-function Register() {
+  function Register() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
+
   return (
     <div className="app">
       <h1>Регистрация</h1>
@@ -80,14 +84,4 @@ function Register() {
       <Link to="/">← На главную</Link>
     </div>
   );
-}
-
-export default function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
-    </Routes>
-  );
-      }
+  }
